@@ -1,0 +1,19 @@
+# API 키
+.env
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# 예제를 실행하면 생기는 파일
+llm_calls.jsonl
+memories.txt
+memories.json
+*.wav
+*.mp3
+
+# macOS
+.DS_Store

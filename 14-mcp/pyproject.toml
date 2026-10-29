@@ -1,0 +1,17 @@
+# 책 14장: pip install mcp
+# 서버의 도구는 7장(ddgs, trafilatura), 에이전트 코어는 8·13장(openai, python-dotenv)의 패키지를 씁니다.
+[project]
+name = "ch14-mcp"
+version = "0.1.0"
+description = "문제 해결을 위한 AI 에이전트 설계 14장 예제"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=2.3",
+    "openai>=2.54",
+    "python-dotenv>=1.0",
+    "ddgs>=9.16",
+    "trafilatura>=2.3",
+]
+
+[tool.uv]
+package = false

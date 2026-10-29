@@ -1,0 +1,13 @@
+# 책 11장에는 pip 줄이 없습니다. 3장에서 설치한 패키지(pip install openai python-dotenv)만 씁니다.
+[project]
+name = "ch11-context-and-memory"
+version = "0.1.0"
+description = "문제 해결을 위한 AI 에이전트 설계 11장 예제"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.54",
+    "python-dotenv>=1.0",
+]
+
+[tool.uv]
+package = false

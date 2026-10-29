@@ -1,0 +1,15 @@
+# 책 16장: 새로 설치할 패키지가 없습니다(3장의 openai, python-dotenv를 그대로 씀).
+# pytest는 예시 작업 디렉터리(workspace)의 테스트를 에이전트가 실행할 때 필요합니다.
+[project]
+name = "ch16-coding-agent"
+version = "0.1.0"
+description = "문제 해결을 위한 AI 에이전트 설계 16장 예제"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.54",
+    "python-dotenv>=1.0",
+    "pytest>=8",
+]
+
+[tool.uv]
+package = false

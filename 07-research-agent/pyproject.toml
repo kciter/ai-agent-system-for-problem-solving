@@ -1,0 +1,15 @@
+# 책 7장: pip install openai python-dotenv ddgs trafilatura
+[project]
+name = "ch07-research-agent"
+version = "0.1.0"
+description = "문제 해결을 위한 AI 에이전트 설계 7장 예제"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.54",
+    "python-dotenv>=1.0",
+    "ddgs>=9.16",
+    "trafilatura>=2.3",
+]
+
+[tool.uv]
+package = false

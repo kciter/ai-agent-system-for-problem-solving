@@ -1,0 +1,17 @@
+# 책 9장에는 따로 설치 명령이 없습니다. 7장 리서치 에이전트와 같은 패키지를 씁니다.
+# 책 7장: pip install openai python-dotenv ddgs trafilatura
+# run_in_sandbox(샌드박스)는 파이썬 패키지가 아니라 Docker가 필요합니다.
+[project]
+name = "ch09-cost-and-security"
+version = "0.1.0"
+description = "문제 해결을 위한 AI 에이전트 설계 9장 예제"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.54",
+    "python-dotenv>=1.0",
+    "ddgs>=9.16",
+    "trafilatura>=2.3",
+]
+
+[tool.uv]
+package = false

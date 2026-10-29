@@ -1,0 +1,13 @@
+# 5장에는 따로 설치 줄이 없습니다. 3장 개발 환경 준비: pip install openai python-dotenv
+[project]
+name = "ch05-text-adventure-game"
+version = "0.1.0"
+description = "문제 해결을 위한 AI 에이전트 설계 5장 예제"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.54",
+    "python-dotenv>=1.0",
+]
+
+[tool.uv]
+package = false

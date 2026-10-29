@@ -1,0 +1,15 @@
+# 책 6장: pip install openai python-dotenv sounddevice soundfile
+[project]
+name = "ch06-english-tutor-agent"
+version = "0.1.0"
+description = "문제 해결을 위한 AI 에이전트 설계 6장 예제"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=2.54",
+    "python-dotenv>=1.0",
+    "sounddevice>=0.5",
+    "soundfile>=0.12",
+]
+
+[tool.uv]
+package = false
